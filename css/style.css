@@ -5,6 +5,7 @@
     --main-color:#e02f6b;
     --red-color:#ec0808;
     --red-color-2:#f79b9b;
+    --red-color-3:#02047e;
     --blue:#0000ff;
     --blue-dark:#0a0e13;
     --orange:#ffa500;
@@ -530,11 +531,6 @@ button{
     color: red;
     font-weight: 600;
 }
-.whatsappme--left {	
-    right: auto;	
-    left: 20px;
-}
-    
 
 /*about Section start-*/
 .about-img{
@@ -628,7 +624,7 @@ button{
     width: 1px;
     top: 0;
     left: 5px;
-    background-color: var(--red-color);
+    background-color: var(--red-color-3);
 }
 .about-text .tab-content{
     padding: 40px 0;
@@ -647,7 +643,7 @@ button{
     position: absolute;
     height: 11px;
     width: 11px;
-    background-color: var(--red-color);
+    background-color: var(--red-color-3);
     left: 0;
     top: 16px;
     border-radius: 50%;
@@ -657,7 +653,7 @@ button{
 }
 .about-text .timeline-item .date{
     display: block;
-    color: var(--red-color);
+    color: var(--red-color-3);
     font-weight: 400;
     margin: 0 0 10px;
 }
