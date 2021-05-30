@@ -4,14 +4,14 @@
 :root{
     --backgorund-color :#1A104F;
     --accend-color :#CC0EA6;
-    --main-color:#e02f6b;
     --red-color:#ec0808;
     --red-color-2:#f79b9b;
-    --red-color-3:#02047e;
+    --blue-color-3:#02047e;
     --blue:#0000ff;
     --blue-dark:#0a0e13;
     --green-color:#9CBB68;
     --orange:#ffa500;
+    --orange-2 :#cf4307;
     --green-yellow:#cddc39;
     --pink-light:#efa2b4;
     --cyan-light:#aef1ee;
@@ -55,7 +55,7 @@ body::before{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--red-color-3);
+    background-color: var(--blue-color-3);
     z-index: -1;
     opacity: .12;
 }
@@ -186,7 +186,7 @@ button{
     top:0;
     height: 100%;
     width: 0%;
-    background-color: var(--red-color);
+    background-color: var(--orange-2);
     z-index: -1;
     transition: width .3s ease;
 }
